@@ -5,6 +5,7 @@ from airflow.models.param import Param
 with DAG (
     dag_id="NVDdatafeed_settings",
     params={
+        'apikey': "",
         'requestAllProducts': False,
         'workingDirectory': "/Users/georgesnganou/Documents/Projects/Data/nvd/"
     }
