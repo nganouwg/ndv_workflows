@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore Docker-related files
+.env
+docker-compose.override.yml
+__pycache__/
+
+# Ignore Airflow logs and temporary files
+logs/
+dags/__pycache__/
+airflow/tmp/
+
+
